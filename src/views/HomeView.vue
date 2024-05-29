@@ -8,23 +8,19 @@ import AppSection from "@/components/shared/AppSection.vue";
 </script>
 
 <template>
-  <AppHero
-      variant="primary"
-      title="Equipe Antimoine - Réduisons l'impact environnemental et social des solutions numériques"
-      sub-title="ecoCode est un outil Open Source basé sur un référentiel de règles d'éco-conception logicielle."
-  >
-    <img class="hero" src="@/assets/img/logo-large.webp" width="358" height="204" alt="ecoCode large logo"/>
+  <AppHero variant="primary"
+    title="Equipe Antimoine - Réduisons l'impact environnemental et social des solutions numériques"
+    sub-title="ecoCode est un outil Open Source basé sur un référentiel de règles d'éco-conception logicielle.">
+    <img class="hero" src="@/assets/image.svg" width="358" height="204" alt="ecoCode large logo" />
   </AppHero>
 
   <div class="block-button-section-1 green">
-    <AppButton variant="secondary" link="/contributeur" text="Je souhaite contribuer au projet"/>
-    <AppButton variant="secondary" link="/entreprise" text="Je souhaite une intégration sur-mesure"/>
+    <AppButton variant="secondary" link="/contributeur" text="Je souhaite contribuer au projet" />
+    <AppButton variant="secondary" link="/entreprise" text="Je souhaite une intégration sur-mesure" />
   </div>
 
-  <AppSection
-      title="ecoCode est une initiative qui prend racine dans la force du collectif"
-      sub-title="Le numérique nous passionne et nous considérons qu’il est impératif de le rendre plus durable."
-  >
+  <AppSection title="ecoCode est une initiative qui prend racine dans la force du collectif"
+    sub-title="Le numérique nous passionne et nous considérons qu’il est impératif de le rendre plus durable.">
     <div class="after-block-section-2">
       <div class="container-after">
         <p>
@@ -45,20 +41,18 @@ import AppSection from "@/components/shared/AppSection.vue";
     </div>
   </AppSection>
 
-  <RuleProcess/>
+  <RuleProcess />
 
-  <AppSection
-      title="ecoCode est rendu possible grâce aux nombreux acteurs impliqués"
-      sub-title="Quelques structures partenaires :"
-  >
-    <PartnerOrganizationList :featured="true"/>
+  <AppSection title="ecoCode est rendu possible grâce aux nombreux acteurs impliqués"
+    sub-title="Quelques structures partenaires :">
+    <PartnerOrganizationList :featured="true" />
     <div class="block-button-section-1">
-      <AppButton variant="secondary" link="/collectif/organisations" text="Toutes les entreprises partenaires"/>
-      <AppButton variant="secondary" link="/collectif/membres" text="Tous nos membres contributeurs"/>
+      <AppButton variant="secondary" link="/collectif/organisations" text="Toutes les entreprises partenaires" />
+      <AppButton variant="secondary" link="/collectif/membres" text="Tous nos membres contributeurs" />
     </div>
   </AppSection>
 
-  <ContactForm/>
+  <ContactForm />
 </template>
 
 <style lang="scss" scoped>
@@ -83,7 +77,7 @@ import AppSection from "@/components/shared/AppSection.vue";
   padding: 0 0 50px 0;
 }
 
-.container-after > p {
+.container-after>p {
   width: 600px;
   font-stretch: normal;
   font-style: normal;
@@ -101,7 +95,7 @@ import AppSection from "@/components/shared/AppSection.vue";
   flex-wrap: wrap;
 }
 
-.container-after:nth-child(2) > p {
+.container-after:nth-child(2)>p {
   text-align: left;
   padding: 0 0 0 97px;
 }
@@ -112,28 +106,28 @@ import AppSection from "@/components/shared/AppSection.vue";
     height: auto;
   }
 
-  .container-after > p {
+  .container-after>p {
     text-align: center;
     padding: 50px 100px 0 100px;
     width: 100%;
     font-size: 15px;
   }
 
-  .container-after:nth-child(2) > p {
+  .container-after:nth-child(2)>p {
     text-align: center;
     padding: 0 100px 0 100px;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .container-after > p {
+  .container-after>p {
     text-align: center;
     padding: 50px 25px 0 25px;
     width: 100%;
     font-size: 15px;
   }
 
-  .container-after:nth-child(2) > p {
+  .container-after:nth-child(2)>p {
     text-align: center;
     padding: 0 25px 0 25px;
   }
