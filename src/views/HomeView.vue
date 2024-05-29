@@ -11,7 +11,7 @@ import AppSection from "@/components/shared/AppSection.vue";
   <AppHero variant="primary"
     title="Equipe Antimoine - Réduisons l'impact environnemental et social des solutions numériques"
     sub-title="ecoCode est un outil Open Source basé sur un référentiel de règles d'éco-conception logicielle.">
-    <img class="hero" src="@/assets/image.svg" width="358" height="204" alt="ecoCode large logo" />
+    <img class="hero" src="@/assets/img/image.svg" />
   </AppHero>
 
   <div class="block-button-section-1 green">
