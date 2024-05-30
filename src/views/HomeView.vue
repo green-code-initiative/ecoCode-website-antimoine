@@ -124,6 +124,32 @@ import AppSection from "@/components/shared/AppSection.vue";
     <circle cx="504.437" cy="-354.495" r="6.021" transform="scale(1 -1)" />
   </svg>
 
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
   <div class="block-button-section-1 green">
     <AppButton variant="secondary" link="/contributeur" text="Je souhaite contribuer au projet" />
     <AppButton variant="secondary" link="/entreprise" text="Je souhaite une intégration sur-mesure" />
@@ -250,4 +276,5 @@ import AppSection from "@/components/shared/AppSection.vue";
     gap: 1.2rem;
     padding: 1.5rem;
   }
-}</style>
+}
+</style>
