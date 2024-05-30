@@ -150,6 +150,32 @@ import AppSection from "@/components/shared/AppSection.vue";
   <img src="" width="300" height="300" alt="" loading="lazy">
   <img src="" width="300" height="300" alt="" loading="lazy">
   <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
+  <img src="" width="300" height="300" alt="" loading="lazy">
   <div class="block-button-section-1 green">
     <AppButton variant="secondary" link="/contributeur" text="Je souhaite contribuer au projet" />
     <AppButton variant="secondary" link="/entreprise" text="Je souhaite une intégration sur-mesure" />
